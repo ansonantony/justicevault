@@ -119,7 +119,7 @@
   height: 495px;
   color: #fff;
   background-color: #651FFF;
-  /* flex-basis: 25%; */
+  flex-basis: 25%;
   padding: 30px 30px 30px 30px;
   margin: 5px 5px 5px 5px;
  }
@@ -198,5 +198,14 @@
 @media  (max-width:600px){
   nav div p{
     display: none;
+  }
+  .cards .card{
+    flex-basis: 100%;
+   
+   }
+   .cards {
+    width: 100%;
+    height: 1581px;
+    display: block;
   }
 }
