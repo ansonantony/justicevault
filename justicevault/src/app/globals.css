@@ -65,7 +65,7 @@
   margin-top: 100px;
   align-items: center;
   flex-direction: column;
-  min-height: 75vh;
+  min-height: 500px;
   width: 100%;
  }
  .header h2{
@@ -116,7 +116,7 @@
  }
  .cards .card{
   width: 320px;
-  height: 395px;
+  height: 500px;
   color: #fff;
   background-color: #651FFF;
   flex-basis: 25%;
