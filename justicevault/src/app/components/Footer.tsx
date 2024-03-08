@@ -1,7 +1,7 @@
-
+import * as React from "react";
 export default function Footer() {
     return(
-        
+    <> 
     <div className="footer">
         <h2>Questions? Call 000-000-000-000</h2>
 
@@ -31,6 +31,14 @@ export default function Footer() {
             
             </div>
         </div>
+        <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/65ac8aa1c14bcab4f830e52efc821a2a5d4b120d4e969ba9ea0d46395f0bd3ea?apiKey=365cd9145bf64b76b402e523c91a3e5d&"
+            className="shrink-0 w-40 max-w-full aspect-[5.88]"
+          />
+          
     </div>
+
+    </>
     );
 }

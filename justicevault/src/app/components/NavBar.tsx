@@ -1,4 +1,4 @@
-
+import Button from 'react-bootstrap/Button';
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -15,7 +15,8 @@ export default function NavBar() {
             <div>
                 <p>App</p>
                 <p>English</p>
-                <button>Sign In</button>
+                {/* <button>Sign In</button> */}
+                <Button variant='outline-dark'>Sign in</Button>
             </div>
         </nav>
     
