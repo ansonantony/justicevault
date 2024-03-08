@@ -2,12 +2,21 @@
   font-family: 'Sofia-Pro';
   src: url('/fonts/SofiaProLight.ttf');
  }
-
+ @font-face {
+  font-family: 'Sofia-Pro-Regular';
+  src: url('/fonts/SofiaProRegular.ttf');
+ }
 
  @font-face {
   font-family: 'Sofia-Pro-Bold';
   src: url('/fonts/SofiaProBold.ttf');
  }
+ html,body,.root{
+  width: 100%;
+  min-height: 100vh;
+ }
+
+
  *{
   font-family: 'Sofia-Pro';
  }
@@ -23,8 +32,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: 15px;
-  margin-right: 15px;
 }
  nav div{
   display: flex;
@@ -52,6 +59,119 @@
   border-radius: 10px;
   font-family: 'Sofia-Pro';
  }
+ .header{
+  /* position: absolute; */
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+  min-height: 75vh;
+  width: 100%;
+ }
+ .header h2{
+  text-align: center;
+  font-size: 56px;
+  font-family: 'Sofia-Pro-Bold';
+ }
+ .web3{
+  color: #651FFF;
+ }
+ .header p{
+  text-align: center;
+  color: #5C5F6E;
+  font-size: 20px;
+ }
+ .header button{
+  outline: 0;
+  border: 0;
+  border-radius: 12%;
+  color: white;
+  padding: 12px 44px;
+  font-family: Sofia-Pro-Regular;
+  background-color: #651FFF;
+ }
+ .features{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+ }
+ .features h2{
+  font-family: 'Sofia-Pro-Bold';
+  font-size: 50px;
+ }
+ .features p{
+  text-align: center;
+  color: #5C5F6E;
+  font-size: 20px;
+ }
+ 
+ .cards{
+  width: 100%;
+  height: 395px;
+  display: flex;
+  justify-content: center;
+ }
+ .cards .card{
+  width: 320px;
+  height: 395px;
+  color: #fff;
+  background-color: #651FFF;
+  flex-basis: 25%;
+
+  margin: 5px 5px 5px 5px;
+ }
+
+
+
+ .footer{
+  padding: 50px 15% 10px;
+  
+  background-color: #1A284E;
+
+}
+.footer h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.footer .row{
+  align-items: flex-start;
+  padding: 10px 0;
+}
+.footer .col{
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+.footer .col a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.footer .drop-btn{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 7px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.copyright-txt{
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #777;
+}
 /* 
  .navbar{
   
@@ -65,3 +185,8 @@
  .navbar ul li a{
   text-decoration: none;
  } */
+@media  (max-width:600px){
+  nav div p{
+    display: none;
+  }
+}
