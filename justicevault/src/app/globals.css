@@ -110,13 +110,13 @@
  
  .cards{
   width: 100%;
-  height: 395px;
+  height: 500px;
   display: flex;
   justify-content: center;
  }
  .cards .card{
   width: 320px;
-  height: 500px;
+  height: 395px;
   color: #fff;
   background-color: #651FFF;
   flex-basis: 25%;
