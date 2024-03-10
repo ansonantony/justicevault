@@ -3,13 +3,19 @@ import NavBar from "./NavBar"
 
 
 export default function Header() {
+
+    
+    const astyle ={
+        textDecoration: 'none',
+        color:'black'
+    }
     return(
         <>
     <NavBar/>
     <div className="header">
         <h2>File storage and sharing for remote <br /> clients on <span className="web3">Web3</span></h2>
         <p>JusticeVault is a online digital vaulti on decentralized cloud IPFS that allows you storage, share,<br/> collect files privately .</p>
-        <div>Get Started</div>
+        <a style={astyle}  href="/"><div>Get Started</div></a>
 
     </div>
     </>

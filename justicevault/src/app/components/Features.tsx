@@ -10,7 +10,7 @@ export default function Features() {
             <div className="first card"><img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/e8c39353a5ae0d6ccab05953f0453a285f7ce36c31d16eaa085f53b1d8802d01?apiKey=365cd9145bf64b76b402e523c91a3e5d&"
-      className="w-20 aspect-square" width='80px'
+      className="w-20 h-20 bg-violet-100 rounded-full aspect-square" width='80px'
     />
     <h2>Lightweight</h2>
     <p>Designed to be lightweight to help you enhance team collaboration by organizing and sharing files in your projects without stress.</p>

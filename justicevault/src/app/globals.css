@@ -40,7 +40,7 @@
  nav div p,nav div h2{
   display: inline;
   height: 100%;
-  
+  text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0;
@@ -50,14 +50,11 @@
    
   
  }
+a{
+
+}
  nav div button{
-  padding: 4.5px 8.5px;
   margin-right: 20px;
-  font-size: 16px;
-  background: transparent;
-  border: solid black 2px;
-  border-radius: 10px;
-  font-family: 'Sofia-Pro';
  }
  .header{
   /* position: absolute; */
@@ -88,6 +85,7 @@
   padding: 12px 44px;
   font-family: Sofia-Pro-Regular;
   background-color: #651FFF;
+  text-decoration: none;
  }
  .features{
   display: flex;
@@ -119,7 +117,6 @@
   height: 495px;
   color: #fff;
   background-color: #651FFF;
-  flex-basis: 25%;
   padding: 30px 30px 30px 30px;
   margin: 5px 5px 5px 5px;
  }
@@ -127,7 +124,7 @@
   margin: 10px 10px 10px 10px;
 }
 .cards .card h2{
-  font-size: 45px;
+  font-size: 43px;
   text-align: left;
 }
 .cards .card p{
@@ -196,16 +193,34 @@
   text-decoration: none;
  } */
 @media  (max-width:600px){
-  nav div p{
+  nav div p,br{
     display: none;
   }
   .cards .card{
     flex-basis: 100%;
-   
+    width: 340px;
+    height: 380px;
+    text-align: center;
+   }
+   .cards .card h2{
+    font-size: 35px;
+    text-align: center;
+   }
+   .cards .card p{
+    text-align: center;
+   }
+   .cards .card img{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 41px;
    }
    .cards {
     width: 100%;
-    height: 1581px;
+    height: 1325px;
     display: block;
+    max-width: fit-content;
+   margin-left: auto;
+  margin-right: auto;
   }
 }

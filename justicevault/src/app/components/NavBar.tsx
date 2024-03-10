@@ -5,16 +5,20 @@ function classNames(...classes: string[]) {
 }
 
 export default function NavBar() {
+  const astyle ={
+    textDecoration: 'none',
+    color:'black'
+}
   return (
     <nav>
             <div>
             <h2 className='logo'>JusticeVault</h2>
-            <p>Home</p>
-            <p>Features</p>
+            <a style={astyle} href="/"><p>Home</p></a>
+            <a style={astyle} href="/"><p>Features</p></a>
            </div>
             <div>
-                <p>App</p>
-                <p>English</p>
+            <a style={astyle} href="/"><p>App</p></a>
+            <a style={astyle} href="/">  <p>English</p></a>
                 {/* <button>Sign In</button> */}
                 <Button variant='outline-dark'>Sign in</Button>
             </div>
