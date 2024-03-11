@@ -1,7 +1,9 @@
 import * as React from "react";
 export default function Footer() {
+    
     return(
     <> 
+
     <div className="footer">
         <h2>Questions? Call 000-000-000-000</h2>
 
@@ -10,7 +12,7 @@ export default function Footer() {
                 <a href="#">Faq</a>
                 <a href="#">Investor relations</a>
                 <a href="#">Privacy</a>
-                <a href="#">Speed Test</a>
+                <a href="https://www.speedtest.net/" target="_blank">Speed Test</a>
             </div>
             <div className="col">
                 <a href="#">Help Center</a>
@@ -20,9 +22,9 @@ export default function Footer() {
             </div>
             <div className="col">
                 <a href="#">Account</a>
-                <a href="#">Ways to Watch</a>
+                <a  href="https://docs.ipfs.tech/" target="_blank">IPFS</a>
                 <a href="#">Corporate Information</a>
-                <a href="#">Only On Netflix</a>
+                
             </div>
             <div className="col">
                 <a href="#">Media Center</a>
