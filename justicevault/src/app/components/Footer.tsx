@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="col">
                 <a href="#">Media Center</a>
                 <a href="#">Terms of Use</a>
-                <a href="#">Contact Us</a>
+                <a href="https://www.instagram.com/jijojohnyy/">Contact Us</a>
             
             </div>
         </div>
