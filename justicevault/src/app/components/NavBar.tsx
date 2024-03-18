@@ -1,14 +1,17 @@
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from 'react';
 import Button from 'react-bootstrap/Button';
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function NavBar() {
+export default function NavBar(props: { btnval: any; }) {
   const astyle ={
     textDecoration: 'none',
     color:'black'
+
 }
+  const buttonValue = props.btnval;
   return (
     <nav>
             <div>
@@ -20,7 +23,9 @@ export default function NavBar() {
             <a style={astyle} href="/"><p>App</p></a>
             <a style={astyle} href="/">  <p>English</p></a>
                 {/* <button>Sign In</button> */}
-                <Button variant='outline-dark'>Sign in</Button>
+                <a href="/success">
+                <Button variant='outline-dark' >{buttonValue}</Button></a>
+                {/* <Button variant='outline-dark'>Sign In</Button> */}
             </div>
         </nav>
     
