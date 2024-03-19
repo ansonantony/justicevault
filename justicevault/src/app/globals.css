@@ -80,6 +80,7 @@ a{
   text-align: center;
   color: #5C5F6E;
   font-size: 20px;
+  margin: 20px 0 20px 0;
  }
  .header div{
   border: 1;
@@ -107,6 +108,7 @@ a{
   text-align: center;
   color: #5C5F6E;
   font-size: 20px;
+  margin: 20px 0 20px 0;
  }
  
  .cards{
@@ -250,7 +252,6 @@ a{
   }
   .search{
     display: block;
-   
     gap: 20px;
     align-items: center;
     margin-top: 50px;
