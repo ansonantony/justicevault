@@ -15,7 +15,7 @@ export default function Header(props: { btnval: any,dival: any }) {
     <NavBar btnval={buttonValue}/>
     <div className="header">
         <h2>File storage and sharing for remote <br /> clients on <span className="web3">Web3</span></h2>
-        <p>JusticeVault is a online digital vaulti on decentralized cloud IPFS that allows you storage, share,<br/> collect files privately .</p>
+        <p>JusticeVault is a online digital vault on decentralized cloud IPFS that allows you storage, share,<br/> collect files privately .</p>
         <a style={astyle}  href={buttonValue == 'Sign In' ?"/":"/search"}><div>{divValue}</div></a>
     </div>
     </>
