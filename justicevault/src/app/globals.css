@@ -90,6 +90,7 @@ a{
   font-family: Sofia-Pro-Regular;
   background-color: #651FFF;
   text-decoration: none;
+  max-width: fit-content;
  }
  .features{
   display: flex;
