@@ -254,6 +254,7 @@ a{
       max-width: fit-content;
      margin-left: auto;
      margin-right: auto;
+     padding: 10px 32px;
   }
   .search{
     display: block;
