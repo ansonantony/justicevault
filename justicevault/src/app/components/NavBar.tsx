@@ -1,4 +1,4 @@
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from 'react';
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal,  } from 'react';
 import Button from 'react-bootstrap/Button';
 
 function classNames(...classes: string[]) {
