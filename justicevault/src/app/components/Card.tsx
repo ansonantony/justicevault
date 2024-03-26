@@ -3,7 +3,7 @@
  * @see https://v0.dev/t/5Kyu0HzbpzT
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-export default function Card() {
+export default function Cardf() {
     return (
       
         <div className="flex flex-col items-stretch bg-white border border-purple-500 rounded-lg">
