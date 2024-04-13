@@ -50,7 +50,7 @@ export function upload() {
 }
 
 
-function UploadIcon(props) {
+function UploadIcon(props: any) {
   return (
     <svg
       {...props}
@@ -72,7 +72,7 @@ function UploadIcon(props) {
 }
 
 
-function CircleIcon(props) {
+function CircleIcon(props: any) {
   return (
     <svg
       {...props}
