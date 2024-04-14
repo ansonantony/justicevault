@@ -42,5 +42,30 @@ async function registerUser(req, res) {
     }
   }
 
-  module.exports = { registerUser };
+async function loginUser(req, res) {
+  try {
+    const { username, walletAddress } = req.body;
 
+    if (!username || !walletAddress) {
+      return res.status(400).json({ error: 'Username and wallet address are required' });
+    }
+
+    const user = await User.findOne({ username });
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    // Compare hashed wallet address
+    const isMatch = await bcrypt.compare(walletAddress, user.walletAddress);
+    if (!isMatch) {
+      return res.status(401).json({ error: 'Invalid login credentials' });
+    }
+
+    res.status(200).json({ message: 'Login successful', user: { username: user.username, email: user.email } });
+  } catch (error) {
+    console.error('Error during login:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+}
+
+module.exports = { registerUser, loginUser };

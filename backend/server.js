@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
-const { registerUser } = require('./controllers/userController');
 
 const app = express();
 
@@ -29,8 +28,7 @@ app.get('/', (req, res) => {
   res.send('');
 });
 
-// Register user route
-app.post('/register', registerUser);
+app.use('/auth', authRoutes);
 
 app.use((err, req, res, next) => {
   console.error('Internal server error:', err);
