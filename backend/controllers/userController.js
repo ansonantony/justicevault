@@ -2,6 +2,7 @@ const  User  = require('../models/user');
 const WAValidator = require('multicoin-address-validator');
 const bcrypt = require('bcrypt');
 const emailvalidator = require("email-validator");
+const logger = require('../middlewares/logger');
 
 async function registerUser(req, res) {
     try {
@@ -34,10 +35,10 @@ async function registerUser(req, res) {
       });
 
       await user.save();
-
+      logger.info(`User ${username} registered successfully`);
       res.status(201).json({ message: 'User registered successfully' });
     } catch (error) {
-      console.error('Error registering user:', error);
+      logger.error('Error registering user:', error);
       res.status(500).json({ error: 'Internal server error' });
     }
   }
@@ -54,16 +55,15 @@ async function loginUser(req, res) {
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
-
-    // Compare hashed wallet address
+    
     const isMatch = await bcrypt.compare(walletAddress, user.walletAddress);
     if (!isMatch) {
       return res.status(401).json({ error: 'Invalid login credentials' });
     }
-
+    logger.info(`Login successful for user ${username}`);
     res.status(200).json({ message: 'Login successful', user: { username: user.username, email: user.email } });
   } catch (error) {
-    console.error('Error during login:', error);
+    logger.error('Error during login:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 }

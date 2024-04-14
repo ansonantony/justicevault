@@ -1,0 +1,1 @@
+{"level":"error","message":"Error during login: clogger is not defined","stack":"ReferenceError: clogger is not defined\n    at loginUser (C:\\Users\\Anjana Kj\\PycharmProjects\\justicevault3\\backend\\controllers\\userController.js:64:5)","timestamp":"2024-04-14T04:37:42.444Z"}
