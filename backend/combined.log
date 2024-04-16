@@ -1,0 +1,31 @@
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T05:34:47.445Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T05:34:47.450Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T14:03:15.266Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T14:03:15.271Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T14:12:59.167Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T14:12:59.173Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T14:15:58.858Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T14:15:58.862Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T14:27:07.676Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T14:27:07.683Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T14:30:45.490Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T14:30:45.494Z"}
+{"level":"info","message":"Login successful for user jjdhsdjhjjjdshddddd","timestamp":"2024-04-14T14:31:33.942Z"}
+{"level":"info","message":"Login successful for user jjdhsdjhjjjdshddddd","timestamp":"2024-04-14T15:05:16.192Z"}
+{"level":"info","message":"Login successful for user jjdhsdjhjjjdshddddd","timestamp":"2024-04-14T15:12:13.975Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T15:18:57.644Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T15:18:57.651Z"}
+{"level":"error","message":"Error during login: localStorage is not defined","stack":"ReferenceError: localStorage is not defined\n    at loginUser (C:\\Users\\Anjana Kj\\PycharmProjects\\justicevault3\\backend\\controllers\\userController.js:69:7)","timestamp":"2024-04-14T15:19:36.861Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T15:20:20.067Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T15:20:20.072Z"}
+{"level":"info","message":"Login successful for user jjdhsdjhjjjdshddddd","timestamp":"2024-04-14T15:20:25.019Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T15:21:51.073Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T15:21:51.079Z"}
+{"level":"info","message":"Login successful for user jjdhsdjhjjjdshddddd","timestamp":"2024-04-14T15:22:16.174Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T15:24:24.131Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T15:24:24.136Z"}
+{"level":"info","message":"Login successful for user jjdhsdjhjjjdshddddd","timestamp":"2024-04-14T15:24:46.672Z"}
+{"body":"{\r\n  \"username\": \"jjdhsdjhjjjdshddddd\",\r\n  \"file\": \"C:\\Users\\Anjana Kj\\Downloads\\CN_lab_exp_5&6 (1).pdf\"\r\n}","expose":true,"level":"error","message":"Internal server error: Unexpected token U in JSON at position 55","stack":"SyntaxError: Unexpected token U in JSON at position 55\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\Anjana Kj\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\Anjana Kj\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (C:\\Users\\Anjana Kj\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\Anjana Kj\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\Anjana Kj\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:517:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1368:12)","status":400,"statusCode":400,"timestamp":"2024-04-14T15:38:01.814Z","type":"entity.parse.failed"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-14T15:38:26.998Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-04-14T15:38:27.005Z"}
+{"body":"{\r\n  \"username\": \"jjdhsdjhjjjdshddddd\",\r\n  \"file\": \"C:\\Users\\Anjana Kj\\Downloads\\CN_lab_exp_5&6 (1).pdf\"\r\n}","expose":true,"level":"error","message":"Internal server error: Unexpected token U in JSON at position 55","stack":"SyntaxError: Unexpected token U in JSON at position 55\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\Anjana Kj\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\Anjana Kj\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (C:\\Users\\Anjana Kj\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\Anjana Kj\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\Anjana Kj\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:517:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1368:12)","status":400,"statusCode":400,"timestamp":"2024-04-14T15:38:30.961Z","type":"entity.parse.failed"}
